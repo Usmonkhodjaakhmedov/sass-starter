@@ -1,0 +1,30 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a,
+input,
+button,
+select,
+option,
+textarea{
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    outline: none;
+}
+body{
+  font-family: fantasy;
+}
+
+container{
+   width: 100%;
+   max-width: 1320;
+   margin: 0 auto;
+   padding: 0 30px;
+}
